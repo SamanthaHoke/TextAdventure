@@ -1,0 +1,65 @@
+﻿div
+{
+    display: inline-block;
+    float: left;
+    background-color: tan;
+    border: 3px solid brown;
+    border-radius: 5px;
+    padding: 5px;
+    height: 600px;
+
+}
+h2, h3{
+    text-align: center;
+    
+}
+h2{
+    text-decoration: underline;
+    font-family: Papyrus, 'Times New Roman', Times, serif;
+}
+#stage{
+    width: 50%;
+    background-color: sandybrown;
+    border-color: saddlebrown;
+
+}
+#gameControls{
+    width: 20%;
+}
+#helpMenu{
+    width: 20%;
+}
+#map{
+    display: block;
+    float: none;
+    margin: 0 auto;
+    height: 140px;
+    width: 140px;
+    background-color: sandybrown;
+}
+.mapTile{
+    display:block;
+    margin: 5px;
+    height: 20px;
+    width: 20px;
+    float: left;
+}
+fieldset{
+    display:inline-block;
+    width: 75%;
+}
+img{
+    display:block;
+    margin: 0 auto;
+    width: 300px;
+    height: 225px;
+    border-radius: 5px;
+    box-shadow: rgba(255, 106, 0, 0.45) 3px 3px;
+}
+button{
+    border-radius: 5px;
+}
+#gameControls button{
+    margin: 10px auto;
+    display: block;
+}

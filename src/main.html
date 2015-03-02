@@ -1,0 +1,60 @@
+﻿<!DOCTYPE html>
+
+<html >
+<head>
+    <meta charset="utf-8" />
+    <title> Desert Adventure </title>
+    <link rel="stylesheet" href="adventureGameStyleSheet.css" />
+</head>
+<body>
+    <div id="helpMenu">
+        <h2>Help</h2>
+        <p id="helpMessage"></p>
+        <hr/>
+        <h2>Map</h2>
+        <div id="map">
+            <div class="mapTile"></div>
+            <div class="mapTile"></div>
+            <div class="mapTile"></div>
+            <div class="mapTile"></div>
+            <div class="mapTile"></div>
+            <div class="mapTile"></div>
+            <div class="mapTile"></div>
+            <div class="mapTile"></div>
+            <div class="mapTile"></div>
+        </div>
+    </div>
+    <div id="stage">
+        <h2>Desert Adventure</h2>
+        <img id="img" alt="Location Image" src=""/>
+        <h3 id="location"></h3>
+        <p id="output"></p>
+        <p id="gameStateArea"></p>
+        <input type="text" id="input" autofocus /> 
+        <button id="submit">Submit</button> 
+        <audio autoplay loop>
+           Audio not supported
+        </audio>
+        <br/>
+        <br />
+        <hr />
+        <p>All music and images &copy; Samantha Hoke 2015</p>
+    </div>
+    <div id="gameControls">
+        <h2> Game Controls</h2>
+        <fieldset>
+            <legend>Game State Controls</legend>
+            <button id="save">Save</button>
+            <button id="load">Load</button>
+            <button id="reset">Reset</button>
+        </fieldset>
+        <fieldset>
+            <legend>Music Controls</legend>
+            <button id="pause">Pause Music</button>
+            <button id="play">Play Music</button>
+        </fieldset>
+        
+    </div>
+    <script src="adventureGameScript.js"></script>
+</body>
+</html>
